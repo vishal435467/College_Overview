@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REC-ABN Login | Rajkiya Engineering College, Ambedkar Nagar</title>
+</head>
+<link rel="stylesheet" href="style - Copy.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />  
+<style>
+    #clock {
+      font-size: 20px;
+    }
+    .timebar{
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #loc a{
+        color: #fff;
+        text-decoration: none;
+    }
+  </style>
+<body>
+    <div class="timebar">
+        <div id="loc"><a href="https://www.bing.com/maps?where=Rajkiya+Engneering+Collage+Ambedkar+Nagar+%2C+Ambedkar+Nagar+%2C+Uttar+Pradesh+224122%2C+IN&cp=26.475578%7E82.618242&lvl=9.1"><i class='fa-solid fa-location-dot'></i>Ambedkar Nagar, Uttar Pradesh, India (UP)-224122</a></div>  <div><i class='fa fa-phone '></i>+91 8382095167 </div>  <div id="clock"></div> <div><a href="https://www.linkedin.com/company/koshish-institute-of-education/"><img src="linkedIn.png" alt=""></a></div>
+    </div>
+    <section>
+        <div class="login-box">
+            <form>
+                <div class="logo">
+                    <img src="logo.png" alt="REC-ABN Logo">
+                </div>
+                <h1>ERP Login</h1>
+                <div class="input-box">
+                    <label for="roll-number"></label>
+                    <input type="number" class="roll-number" required placeholder="Roll - Number" min="22073700000000" max="22073709999999">
+                </div>
+                <div class="input-box">
+                    <label for="password"></label>
+                    <input type="password" class="password" required placeholder="Password" >
+                </div>
+                <div class="btn">
+                    <button>Login</button>
+                </div>
+                <div class="forget">
+                    <a href="#">Forget Password</a>
+                </div>
+                <div class="txt">
+                    <p>This is official ERP of Rajkiya Engineering College, Ambedkar Nagar</p>
+                </div>
+            </form>
+        </div>
+    </section>
+    <p>Powered by SDC REC-ABN</p>
+    <script>
+        function updateClock() {
+          var now = new Date();
+          var hours = now.getHours();
+          var minutes = now.getMinutes();
+          var seconds = now.getSeconds();
+          hours = hours < 10 ? '0' + hours : hours;
+          minutes = minutes < 10 ? '0' + minutes : minutes;
+          seconds = seconds < 10 ? '0' + seconds : seconds;
+        
+          var timeString = hours + ':' + minutes + ':' + seconds;
+        
+          document.getElementById('clock').innerText = timeString;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+        </script>
+</body>
+</html>

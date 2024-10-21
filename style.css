@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #A57982;
+    height: 100px;
+    width: 100%;
+    color: #322f68;
+}
+.menu{
+    height: 50px;
+    width: 100%;;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #795C5F;
+}
+.link{
+    text-decoration: none;
+    color: #e0baba;
+    font-size: 26px;
+    margin-top: 10px;
+}
+.link:hover{
+    color: rgb(24, 24, 170);
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.impimg{
+    height: 100;
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 18px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+}
+.people img{
+    height: 200px;
+    width: 230px;
+    border: 2px transparent;
+    border-radius: 18px;
+}
+#ptext{
+    margin-left: 10px;
+    font-size: 45px;
+    font-weight: bold;
+}
+#branchlink{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #322f68;
+}
+#para{
+    width: 90%;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+.IT{
+    margin: 30px;
+}
+.about #para{
+    margin: 20px;
+    text-align: justify;
+    width: 90%;
+}
+.about{
+    background-color: rgb(62, 61, 61);
+    color: #fff;
+    height: 180px;
+    width: 100%;
+    
+}
+.abouth{
+    font-size: 45px;
+    font-weight: bold;
+}
+footer{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(50, 59, 68);
+    color: #d6d6d6;
+}
+.fhead{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fhead #logo{
+    height: 120px;
+   
+}
+.qlink{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.qlink h2{
+    font-size: 28px;
+}
+.qlink a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 5px;
+    color: #d6d6d6;
+}
+.qlink a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(76, 76, 241);
+}
+.ColleceCell{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.ColleceCell h2{
+    font-size: 28px;
+}
+.ColleceCell a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 5px;
+    color: #d6d6d6;
+}
+.ColleceCell a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(76, 76, 241);
+}
+.policies{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.policies a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 5px;
+    color: #d6d6d6;
+}
+.policies a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(76, 76, 241);
+}
+.policies h2{
+    font-size: 28px;
+}
+#cpy{
+    background-color: rgb(50, 59, 68);
+    text-align: center;
+    color: slategrey;
+    font-size: 20px;
+}
+#h3{
+    font-size: 28px;
+    margin: 5px;
+}
+#pt{
+    font-size: 18px;
+    margin: 5px;
+}
+.book{
+    height: 100;
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 18px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+}
+.book img{
+    height: 200px;
+    width: 230px;
+    border: 2px transparent;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.btnl{
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 24px;
+}
+.btnl:hover{
+    background-color: transparent;
+    color: aqua;
+}
+.btnl a{
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+.btnl a:hover{
+    background-color: transparent;
+    color: aqua;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
+.btns{
+    display: flex;
+ justify-content: space-around;
+}
+#btn{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: aqua;
+}
+#btn:hover{
+    background-color: transparent;
+    color: aqua;
+}
+table{
+    align-items: center;
+}
+td img{
+    height: 200px;
+}
+td h3{
+  text-align: center;
+  padding: 20px;
+}
+td h2{
+    padding: 30px;
+}
+#pay{
+    padding: 10px;
+}
+#btnb{
+    font-size: 20px;
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btnb:hover{
+    color: aqua;
+    background-color: transparent;
+    border: 2px solid black;
+}
+#chal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#h{
+    color: red;
+}

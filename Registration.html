@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajkiya Engineering College Ambedkar Nagar</title>
+    <style>
+        form{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        .registration{
+            padding: 20px;
+        }
+        #registration{
+            position: absolute;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration </h1>
+    <form>
+        <div class="registration">
+            <label id="branch">Select branch : </label>
+            <select  id="branch">
+                <option value="Information Technology">Information Technology</option>
+                <option value="Civil Engineering">Civil Engineering</option>
+                <option value="Electrical Engineering">Electrical Engineering</option>
+            </select>
+        </div>
+        <div class="registration">
+            <label id="name">Name :</label>
+            <input type="text" id="name" placeholder="Name">
+        </div>
+        <div class="registration">
+            <label >E-mail :</label>
+            <input type="text" placeholder="someone@gmail.com">
+        </div>
+        <div class="registration">
+            <label for="phone" >Phone No. :</label>
+            <input id="phone" type="number" placeholder="0000000000">
+        </div>
+        <div class="registration">
+            <label for="dob">Date of birth : </label> 
+            <input type="number" min="01" max="31" placeholder="dd" id="dob">
+            <input type="number" min="01" max="12" placeholder="mm" id="dob">
+            <input type="number" min="1950" max="2100" placeholder="yyyy" id="dob">
+        </div>
+        <div class="registration">
+            <label >Sex :</label>
+            <input type="radio" id="gender1" name="gender" value="male" />
+            <label for="gender1">Male</label>
+            <input type="radio" id="gender2" name="gender" value="female" />
+            <label for="gender2">Female</label>
+            <input type="radio" id="gender3" name="gender" value="transgender" />
+            <label for="gender3">Transgender</label>
+        </div>
+       <div class="registration">
+            <label >Language Known :</label>
+            <input type="checkbox" id="hindi">
+            <label for="hindi">Hindi</label>
+            <input type="checkbox" id="english">
+            <label for="english">English</label>
+            <input type="checkbox" id="tmail">
+            <label for="tamil">Tamil</label>
+            <input type="checkbox" id="telugu">
+            <label for="telugu">Telugu</label>
+       </div>
+       <div class="registration">
+            <label >Password :</label>
+            <input type="password" placeholder="Password">
+        </div>
+       <div class="registration">
+        Address :
+        <textarea placeholder="Type here ..." row="30" cols="40"></textarea>
+        <p>Already registered <a href="Login.html" target="_blank">Login here</a></p>
+       </div>
+        <div class="registration">
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+</html>
